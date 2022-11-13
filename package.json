@@ -1,0 +1,26 @@
+{
+  "name": "goals_api_express",
+  "version": "1.0.0",
+  "description": "Backend server deployed on heroku\r Link : https://goal-management-app.herokuapp.com/",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GulamMd/Goals_API_Express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GulamMd/Goals_API_Express/issues"
+  },
+  "homepage": "https://github.com/GulamMd/Goals_API_Express#readme",
+  "devDependencies": {
+    "concurrently": "^7.5.0"
+  }
+}
